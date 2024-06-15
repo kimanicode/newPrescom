@@ -59,13 +59,13 @@ export default function App() {
          </div>
       </NavbarContent>
 
-      {/* <NavbarContent justify="end">
+      <NavbarContent justify="end">
         <NavbarItem>
           <Button as={Link} color="secondary" href="#" variant="flat">
             Contact Us
           </Button>
         </NavbarItem>
-      </NavbarContent> */}
+      </NavbarContent>
 
       <NavbarMenu>
         {menuItems.map((item, index) => (
