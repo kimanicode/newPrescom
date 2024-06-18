@@ -20,7 +20,6 @@ export default function App() {
   const menuItems = [
     { name: 'Home', route: '/' },
     { name: 'Services', route: '/services' },
-    { name: 'Pricing', route: '/pricing' },
     { name: 'About Us', route: '/about-us' },
     { name: 'Contact Us', route: '/contact-us' }
     
