@@ -11,6 +11,7 @@ import RecentProjects from './components/RecentProjects'
 import Testimonials from './components/Testimonials';
 import KeyServices from './components/KeyServices';
 import ContactInformation from './components/ContactInformation';
+import WhatWeDo from './components/WhatWeDo';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                   <>     
                        <Banner/>
                        <KeyServices/>
+                       <WhatWeDo/>
                        
                        
                        <RecentProjects/>
