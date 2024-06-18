@@ -24,7 +24,7 @@ export default function Banner() {
       <Image
         removeWrapper
         alt="Relaxing app background"
-        className="z-0 w-screen h-full object-cover rounded-none"
+        className="z-0 w-screen h-full object-cover rounded-none "
         src={bannerImage}
       />
 

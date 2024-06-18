@@ -62,12 +62,12 @@ export default function WhatWeDo() {
   };
 
   return (
-    <section id="what-we-do" className="py-16 bg-gray-800">
-      <div className="container mx-auto px-4">
+    <section id="what-we-do" className="py-16 bg-gray-800 w-full flex justify-center">
+      <div className=" w-[90%] px-3">
         <h2 className="text-4xl font-bold text-center text-primary mb-8">What We Do</h2>
         <Slider {...settings}>
           {projectProgress.map((project) => (
-            <div key={project.id} className="px-4">
+            <div key={project.id} className="px-3">
               <Card className="h-full shadow-lg">
                 <CardBody className="p-0">
                   <Image
