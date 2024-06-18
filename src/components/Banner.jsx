@@ -8,8 +8,8 @@ export default function Banner() {
     <div className=" h-full w-full rounded-none">
     
     <Card isFooterBlurred className="w-full md:h-[90vh] h-[75vh] col-span-12 sm:col-span-7 rounded-none">
-      <CardHeader className="absolute z-10 md:top-[20%]  left-1/2 transform -translate-x-1/2 flex flex-col md:items-center md:text-center px-3 ">
-        <p className=" text-white/90 font-bold md:text-6xl text-6xl  py-5  ">Empowering Tomorrows Connectivity <br />Today</p>
+      <CardHeader className="absolute z-10 md:top-[20%] top-[10%] left-1/2 transform -translate-x-1/2 flex flex-col items-center text-center px-3 ">
+        <p className=" text-white/90 font-bold text-6xl  py-5  ">Empowering Tomorrows Connectivity <br />Today</p>
         <h4 className="text-2xl text-white text-md  ">Crafting Excellence in ICT Solutions Since 2012</h4>
         <div className="py-3 flex justify-between gap-5 md:flex-row flex-col" >
             <Button radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg px-10">
