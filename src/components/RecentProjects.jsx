@@ -4,6 +4,7 @@ import { Card, CardHeader, CardFooter, Image, Button } from '@nextui-org/react';
 import project1 from '../assets/cbk.png';
 import fibre from '../assets/fibre.jpg'
 import ap from '../assets/ap.jpg'
+import { useNavigate } from 'react-router-dom';
 
 const projects = [
   {
@@ -27,7 +28,13 @@ const projects = [
   // Add more projects as needed
 ];
 
+
 export default function RecentProjects() {
+  const navigate = useNavigate()
+  const handleMoreProjects =()=>{
+    navigate('/projects')
+  }
+
   return (
     <section id="recent-projects" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -47,7 +54,7 @@ export default function RecentProjects() {
 
         </div>
         <div className='flex justify-center py-14'>
-          <Button color='secondary'> More Projects</Button>
+          <Button color='secondary' onClick={handleMoreProjects}> More Projects</Button>
         </div>
       </div>
     </section>

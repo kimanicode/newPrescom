@@ -12,6 +12,8 @@ import Testimonials from './components/Testimonials';
 import KeyServices from './components/KeyServices';
 import ContactInformation from './components/ContactInformation';
 import WhatWeDo from './components/WhatWeDo';
+import ConsultationForm from './pages/ConsultationForm';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
       <Route path='/about-us' element={<Aboutus />} />
       <Route path='/contact-us' element={<Contact />} />
       <Route path='/team' element={<OurTeam />} />
+      <Route path='/consultation' element={<ConsultationForm />} />
+      <Route path='/projects' element={<Projects />} />
 
       </Routes>
       <Footer/>

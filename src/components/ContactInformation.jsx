@@ -2,8 +2,13 @@
 import React from 'react';
 import { Card, Button } from '@nextui-org/react';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 export default function ContactInformation() {
+  const navigate = useNavigate()
+  const handleClick =()=>{
+    navigate('/contact-us')
+  }
   return (
     <section id="contact-information" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
@@ -27,7 +32,8 @@ export default function ContactInformation() {
                 <p className="text-gray-600 text-lg">Nairobi, Kenya</p>
                 </div>
 
-                <Button auto flat color="secondary" className="mt-6">
+                <Button auto flat color="secondary" className="mt-6" 
+                onClick={handleClick}>
                     Contact Us
                 </Button>
           </div>

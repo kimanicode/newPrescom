@@ -57,7 +57,7 @@ const Testimonials = () => {
 
   return (
     <div className='w-full px-10 py-5 bg-gray-800'>
-      <p className='text-4xl text-primary font-semibold text-center'>What They Say About Us</p>
+      <p className='text-4xl text-white font-semibold text-center'>What They Say About Us</p>
       <div className="mt-10 py-6">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (

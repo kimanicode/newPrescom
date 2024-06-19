@@ -14,6 +14,9 @@ export default function App() {
     navigate('/consultation');
     handleClick()
   };
+  const handleContactUs =() =>{
+    navigate('/contact-us')
+  }
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   
@@ -34,13 +37,13 @@ export default function App() {
 
         <NavbarContent className="sm:hidden pr-3" justify="center">
           <NavbarBrand className="p-0 m-0">
-            <img src={AcmeLogo} alt="Acme Logo" className="h-10 p-0 m-0" />
+            <Link to='/'><img src={AcmeLogo} alt="Acme Logo" className="h-10 p-0 m-0" /></Link>
           </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent className="hidden sm:flex items-center gap-4 p-0 m-0" justify="start">
           <NavbarBrand className="p-0 m-0">
-            <img src={AcmeLogo} alt="Acme Logo" className="h-10 sm:h-20 p-0 m-0" />
+          <Link to='/'><img src={AcmeLogo} alt="Acme Logo" className="h-10 sm:h-20 p-0 m-0" /></Link>
           </NavbarBrand>
           <NavbarItem className="p-0 m-0">
             <Link to="/" className="text-gray-800 p-0 m-0">
@@ -66,7 +69,7 @@ export default function App() {
 
         <NavbarContent justify="end" className="p-0 m-0">
           <NavbarItem className="p-0 m-0">
-            <Button as={Link} color="secondary" to="#" variant="flat" className="p-0 m-0">
+            <Button  color="secondary" variant="flat" className="p-0 m-0" onClick={handleContactUs}>
               Contact Us
             </Button>
           </NavbarItem>
