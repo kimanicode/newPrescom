@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const Footer = () => {
@@ -18,22 +18,22 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul>
               <li className="mb-2">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link to='/about-us' className="text-gray-400 hover:text-white">
                   About Us
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link to="/services" className="text-gray-400 hover:text-white">
                   Services
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link to="/projects" className="text-gray-400 hover:text-white">
                   Projects
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link to="/contact-us" className="text-gray-400 hover:text-white">
                   Contact Us
                 </Link>
               </li>

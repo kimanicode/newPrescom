@@ -76,7 +76,7 @@ export default function WhatWeDo() {
                     objectFit="cover"
                     width="100%"
                     height={400}
-                    className="rounded-none h-64" // Ensure all images have the same height
+                    className="rounded-none h-64 md:h-[450px]" // Ensure all images have the same height
                   />
                 </CardBody>
                 <CardFooter className="flex flex-col items-center p-4">

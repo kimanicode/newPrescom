@@ -75,10 +75,10 @@ export default function App() {
           </NavbarItem>
         </NavbarContent>
 
-        <NavbarMenu className="p-10 ">
+        <NavbarMenu className="p-10 text-secondary ">
           {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`} className="p-0 m-0">
-              <Link className="w-full p-0 m-0" 
+            <NavbarMenuItem key={`${item}-${index}`} className="py-2 m-0">
+              <Link className="w-full  m-0 text-secondary font-bold" 
                 to={item.route}
                 size="lg"
                 onClick={handleClick}

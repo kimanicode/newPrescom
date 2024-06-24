@@ -51,7 +51,7 @@ export default function Services() {
           {services.map(service => (
             <div key={service.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
               <Card className="h-full p-6 shadow-lg">
-                <CardHeader className="flex justify-center p-6">
+                <CardHeader className="flex justify-center p-6 text-primary">
                   {service.icon}
                 </CardHeader>
                 <CardFooter className="flex flex-col items-start p-6">

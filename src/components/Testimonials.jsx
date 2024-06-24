@@ -23,20 +23,20 @@ const Testimonials = () => {
     {
       id: 1,
       text: "Prescom's expertise in data center solutions was invaluable for Phoenix Aviation. They helped us design and implement a system that meets our growing needs while staying agile and secure. We appreciate their commitment to understanding our specific requirements and budget constraints..",
-      name: "Dickson",
+      name: "Office of National Security Advisor to the President",
       position: "CBK Pension Towers",
       image: banner
     },
     {
       id: 2,
       text: "We were impressed with Prescom's technical knowledge and professionalism during the maintenance of our ICT equipment at Kiambu County Government. Their prompt response and ability to solve problems quickly minimized downtime and ensured our operations continued uninterrupted",
-      name: "KIambu County Government",
+      name: "Kiambu County Government",
             image: banner
     },
     {
       id: 3,
       text: "Prescom Limited delivered exceptional IP Telephony services to streamline our communication channels at Phoenix Aviation. Their tailored solutions and proactive support have made a substantial difference in our business operations. We highly recommend their services.",
-      name: "Phoenix Aviation,Nairobi",
+      name: "Phoenix Aviation Nairobi",
       image: banner
     },
 

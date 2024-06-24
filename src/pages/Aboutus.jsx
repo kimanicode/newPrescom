@@ -2,7 +2,8 @@ import { BadgeCheck, Smile, Sun,  } from "lucide-react";
 import { Card, Avatar } from "@nextui-org/react";
 import project1 from '../assets/davy.jpg';
 import bernard from '../assets/bernard.jpg'// Example image
-import james from '../assets/kim.jpeg'
+import james from '../assets/James.jpg'
+import chege from '../assets/chege.jpg'
 import kimani from '../assets/headshot.jpg'
 
 const teamMembers = [
@@ -22,7 +23,7 @@ const teamMembers = [
     name: "Geoffrey Chege",
     role: "Director",
     bio: "Chege is a seasoned Network engineer with over 11 years of experience.",
-    image: james,
+    image: chege,
   },
 
   {
@@ -105,7 +106,7 @@ export default function Aboutus() {
           <h2 className="text-4xl font-bold text-center text-primary mb-8">Our Team</h2>
           <div className="flex flex-wrap justify-center gap-6">
             {teamMembers.map((member, index) => (
-              <Card key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col items-center p-4">
+              <Card key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex flex-col items-center p-4 hover:bg-gray-100">
                 <Avatar src={member.image} alt={member.name} className="w-24 h-24 mb-4 rounded-full" />
                 <h4 className="text-primary font-bold text-xl mb-2">{member.name}</h4>
                 <p className="text-secondary mb-1">{member.role}</p>
