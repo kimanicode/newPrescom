@@ -49,9 +49,10 @@ const Footer = () => {
               <Link href="#" className="text-gray-400 hover:text-white">
                 <Twitter size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/company/prescom-ltd/?viewAsMember=true"  target="
+  _blank" className="text-gray-400 hover:text-white">
                 <Linkedin size={20} />
-              </Link>
+              </a>
               <Link href="#" className="text-gray-400 hover:text-white">
                 <Instagram size={20} />
               </Link>
@@ -63,7 +64,7 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Prescom Ltd. All rights reserved.</p>
         </div>
         <div className="text-center py-3 text-secondary">
-  Developed by <a href="https://juahub.onrender.com" className="underline font-bold" target="'
+  Developed by <a href="https://juahub.onrender.com" className="underline font-bold" target="
   _blank">JuaHub</a>
 </div>
       </div>

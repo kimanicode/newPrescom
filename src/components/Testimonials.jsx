@@ -22,9 +22,9 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Prescom's expertise in data center solutions was invaluable for Phoenix Aviation. They helped us design and implement a system that meets our growing needs while staying agile and secure. We appreciate their commitment to understanding our specific requirements and budget constraints..",
-      name: "Office of National Security Advisor to the President",
-      position: "CBK Pension Towers",
+      text: "Prescom's expertise in data center solutions was invaluable for CBK Pension Towers. They helped us design and implement a system that meets our growing needs while staying agile and secure. We appreciate their commitment to understanding our specific requirements and budget constraints..",
+      name: "CBK Pension Towers",
+      position: "",
       image: banner
     },
     {
